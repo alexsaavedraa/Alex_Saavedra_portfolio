@@ -1,13 +1,9 @@
 import './Footer.css'
 
 const Footer = () => (
-  <footer className='footer'>
-    <a
-      
-    >
-    
-    </a>
-  </footer>
+  <footer className='footer'/>
+ 
+
 )
 
 export default Footer
