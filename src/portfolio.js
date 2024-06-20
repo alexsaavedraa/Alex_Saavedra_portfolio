@@ -8,8 +8,9 @@ const about = {
   name: 'Alexander Saavedra',
   role: 'Full Stack Software Engineer',
   description:
-    'Full-stack software developer with a strong foundation in data science and artificial intelligence, holding a B.A. in Computer Science from Northwestern University. \n\n Proven expertise in developing and deploying innovative solutions, such as financial report parsers and alternative credit scoring models, using a diverse technology stack including Python, Java, Go, React, and Kubernetes.',
-  resume: 'https://drive.google.com/file/d/1SjV0E30j-DM_oglbJ51f4t8XW2AD_jwH/view?usp=sharing',
+    'Full-stack software developer with a strong foundation in data science and artificial intelligence, holding a B.A. in Computer Science from Northwestern University',
+  details: 'Proven expertise in developing and deploying innovative solutions, such as financial report parsers and alternative credit scoring models, using a diverse technology stack including Python, Java, Go, React, and Kubernetes.',
+   resume: 'https://drive.google.com/file/d/1SjV0E30j-DM_oglbJ51f4t8XW2AD_jwH/view?usp=sharing',
   social: {
     linkedin: 'https://linkedin.com',
     github: 'https://github.com',
