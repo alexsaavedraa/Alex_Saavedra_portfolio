@@ -1,3 +1,6 @@
+import githubicon from './assets/GitHub-Mark.png'
+import kaggleicon from './assets/kaggle-ico.png'
+
 const header = {
   // all the properties are optional - can be left empty or deleted
 
@@ -25,8 +28,11 @@ const projects = [
     description:
       "Can you decipher a large language model's secret prompt from its generated text? This project tackles that very challenge, achieving a top 13th place finish (out of 2175 entries) at Google's Prompt Recovery Challenge. Explore the full write-up and explanation (link below) to discover the innovative approach using Python, Genetic Algorithms, Large Language Models, and Vectorizers.",
     stack: ['Python', 'Genetic Algorithms', 'LLMS', 'Vectorizors'],
-    sourceCode: 'https://github.com/alexsaavedraa/Prompt-Recovery-Challenge',
-    livePreview: 'https://www.kaggle.com/competitions/llm-prompt-recovery',
+    links: {
+    sourceCode: ['https://github.com/alexsaavedraa/Prompt-Recovery-Challenge', githubicon],
+    livePreview: ['https://www.kaggle.com/competitions/llm-prompt-recovery', kaggleicon],
+    }
+
   }
 ]
 

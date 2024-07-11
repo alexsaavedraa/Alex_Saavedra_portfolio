@@ -1,7 +1,7 @@
-import uniqid from 'uniqid'
-import GitHubIcon from '@material-ui/icons/GitHub'
-import LaunchIcon from '@material-ui/icons/Launch'
-import './ProjectContainer.css'
+import uniqid from 'uniqid';
+import './ProjectContainer.css';
+
+
 
 const ProjectContainer = ({ project }) => (
   <div className='project'>
@@ -18,26 +18,21 @@ const ProjectContainer = ({ project }) => (
       </ul>
     )}
 
-    {project.sourceCode && (
-      <a
-        href={project.sourceCode}
-        aria-label='source code and write up'
-        className='link link--icon'
-      >
-        <GitHubIcon />
-      </a>
-    )}
-
-    {project.livePreview && (
-      <a
-        href={project.livePreview}
-        aria-label='Competition Website'
-        className='link link--icon'
-      >
-        <LaunchIcon />
-      </a>
+    {project.links && (
+      <div className='project__links'>
+        {Object.entries(project.links).map(([key, [url, icon]]) => (
+          <a
+            key={uniqid()}
+            href={url}
+            aria-label={key}
+            className='link link--icon'
+          >
+            <img src={icon} alt={key} className='project__icon' />
+          </a>
+        ))}
+      </div>
     )}
   </div>
-)
+);
 
-export default ProjectContainer
+export default ProjectContainer;
