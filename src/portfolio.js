@@ -4,6 +4,7 @@ import kaggleimg from './assets/dataset-diversity.png'
 import chatbox from './assets/Friendly-Chat.png'
 import friendlyicon from './assets/friendlychat-logo.png'
 import documenticon from './assets/document-icon.jpg'
+import ludogif from './assets/LudoBots.gif'
 
 const header = {
   // all the properties are optional - can be left empty or deleted
@@ -38,7 +39,7 @@ const projects = [
       ],
     stack: ['Python', 'Genetic Algorithms', 'LLMS', 'Vectorizors'],
     links: {
-    "Full Writeup ": ['https://github.com/alexsaavedraa/Prompt-Recovery-Challenge', documenticon],
+    "Full Writeup ": ['https://github.com/alexsaavedraa/Prompt-Recovery-Challenge/blob/main/README.md', documenticon],
     "Source Code ": ['https://github.com/alexsaavedraa/Prompt-Recovery-Challenge', githubicon, ],
 
     "Competition Website ": ['https://www.kaggle.com/competitions/llm-prompt-recovery', kaggleicon],
@@ -68,17 +69,19 @@ const projects = [
     name: "Ludobots",
     subtitle: "Physically Simulated Robot Learning",
     
-    title: "Ludobots-Physically Simulated Robots Learning to Move",
+    title: "Ludobots- Virtual Robot Evolution",
     tagline: "And several observations on learning algorithms and reward functions",
-    description: ["The Reverse Prompt Engineering Competition is a cutting-edge machine learning challenge focused on recovering prompts used to generate text with large language models.",
-       "  My approach involved meticulous natural generation with strict quality metrics, followed by optimizing prompts through an original language genetic algorithm. Finally, integration of clustering with BERTopic, was aimed at giving my submission its final edge in a competition with razor thin majors. This strategic blend of data science and algorithmic refinement culminated in a competitive performance, reflecting a deep exploration into effective machine learning, prompt engineering strategies, and NLP workflows.",
-      ],
+    description: ["From popular robotics simulation course, r/ludobots, This project builds up the framework to simulate randomly generated 'robots' controlled by neural networks in python, with the ability to mix these networks and bodies in an evolutionary process. ",
+       "The final project seeks to solve the problem, how can we make the evolutionary process more algorithmicly efficient? As part of the course, we were asked to run as many as 100,000 simulations on our laptop computers, which would often mean running the program for days at a time.",
+      "I approached this problem by visualizing all of the data that I had collected, and realized that in this case (and many other learning algorithm cases - see LLM prompt recovery), you can predict final fitness by the gradient of initial fitness improvement. This would allow you to select only the best individuals of each run, and reduce computational rescources by up to 5x and get the same result.",
+    "You can see a full writeup, including pictures and videos of it in action, in the readme of the source code.",
+  ],
     stack: ['Python', 'Genetic Algorithms', 'LLMS', 'Vectorizors'],
     links: {
     "Source Code": ['https://github.com/alexsaavedraa/Prompt-Recovery-Challenge', githubicon],
-    "Try it out! ": ['http://Chat.leapingspider.com', friendlyicon],
+
     },
-    image: chatbox,
+    image: ludogif,
 
   },
   {
@@ -89,6 +92,7 @@ const projects = [
     tagline: "And several observations on learning algorithms and reward functions",
     description: ["The Reverse Prompt Engineering Competition is a cutting-edge machine learning challenge focused on recovering prompts used to generate text with large language models.",
        "  My approach involved meticulous natural generation with strict quality metrics, followed by optimizing prompts through an original language genetic algorithm. Finally, integration of clustering with BERTopic, was aimed at giving my submission its final edge in a competition with razor thin majors. This strategic blend of data science and algorithmic refinement culminated in a competitive performance, reflecting a deep exploration into effective machine learning, prompt engineering strategies, and NLP workflows.",
+       
       ],
     stack: ['Python', 'Genetic Algorithms', 'LLMS', 'Vectorizors'],
     links: {
