@@ -5,6 +5,7 @@ import chatbox from './assets/Friendly-Chat.png'
 import friendlyicon from './assets/friendlychat-logo.png'
 import documenticon from './assets/document-icon.jpg'
 import ludogif from './assets/LudoBots.gif'
+import plant from './assets/plant.jpeg'
 
 const header = {
   // all the properties are optional - can be left empty or deleted
@@ -86,20 +87,19 @@ const projects = [
   },
   {
     name: "Plant 2.0",
-    subtitle: "Automating Plant care with Microcontrollers and C",
+    subtitle: "Automating Plant Care with I2C devices.",
     
-    title: "Ludobots-Physically Simulated Robots Learning to Move",
-    tagline: "And several observations on learning algorithms and reward functions",
-    description: ["The Reverse Prompt Engineering Competition is a cutting-edge machine learning challenge focused on recovering prompts used to generate text with large language models.",
-       "  My approach involved meticulous natural generation with strict quality metrics, followed by optimizing prompts through an original language genetic algorithm. Finally, integration of clustering with BERTopic, was aimed at giving my submission its final edge in a competition with razor thin majors. This strategic blend of data science and algorithmic refinement culminated in a competitive performance, reflecting a deep exploration into effective machine learning, prompt engineering strategies, and NLP workflows.",
+    title: "Plant 2.0: Automated Plant Care",
+    tagline: "A Microbit Project written in C with custom device drivers",
+    description: ["Plant 2.0 is a project where a low power microcontroller controls a plant's light level and water based on input from light, temperature, humidity, and moisture sensors connected via I2C.",
+       "",
        
       ],
-    stack: ['Python', 'Genetic Algorithms', 'LLMS', 'Vectorizors'],
+    stack: ['C', 'I2C', 'Integrated Devices', 'Electronics'],
     links: {
-    "Source Code": ['https://github.com/alexsaavedraa/Prompt-Recovery-Challenge', githubicon],
-    "Try it out! ": ['http://Chat.leapingspider.com', friendlyicon],
+    "Source Code": ['https://github.com/prachipatil7/plant-monitoring-embedded-system/', githubicon],
     },
-    image: chatbox,
+    image: plant,
 
   }
 
