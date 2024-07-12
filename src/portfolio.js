@@ -1,5 +1,9 @@
 import githubicon from './assets/GitHub-Mark.png'
 import kaggleicon from './assets/kaggle-ico.png'
+import kaggleimg from './assets/dataset-diversity.png'
+import chatbox from './assets/Friendly-Chat.png'
+import friendlyicon from './assets/friendlychat-logo.png'
+import documenticon from './assets/document-icon.jpg'
 
 const header = {
   // all the properties are optional - can be left empty or deleted
@@ -24,16 +28,78 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: "Uncovering the Hidden Prompt: Predicting Inputs for Large Language Models (Gold Medal, Google's Prompt Recovery Challenge)",
-    description:
-      "Can you decipher a large language model's secret prompt from its generated text? This project tackles that very challenge, achieving a top 13th place finish (out of 2175 entries) at Google's Prompt Recovery Challenge. Explore the full write-up and explanation (link below) to discover the innovative approach using Python, Genetic Algorithms, Large Language Models, and Vectorizers.",
+    name: "LLM Prompt Recovery",
+    subtitle: "Gold Medal Submission in Google Sponsored Competition",
+    
+    title: "LLM Prompt Recovery Challenge",
+    tagline: "Placed 12/2175: Genetic Adversial Attack Against Google's Transformer Model",
+    description: ["The Reverse Prompt Engineering Competition was a Kaggle machine learning challenge focused on recovering prompts used to generate text with large language models. Sponsored by google, it boasted a $100,000 grand prize and over 2000 team competing.",
+       "My approach involved meticulous dataset generation with strict quality metrics, followed by optimizing prompts through an original language genetic algorithm. Finally, integration of clustering with BERTopic, was aimed at giving my submission its final edge in a competition with razor thin majors. This strategic blend of data science and algorithmic refinement culminated in a competitive performance, reflecting a deep exploration into effective machine learning, prompt engineering strategies, and NLP workflows.",
+      ],
     stack: ['Python', 'Genetic Algorithms', 'LLMS', 'Vectorizors'],
     links: {
-    sourceCode: ['https://github.com/alexsaavedraa/Prompt-Recovery-Challenge', githubicon],
-    livePreview: ['https://www.kaggle.com/competitions/llm-prompt-recovery', kaggleicon],
-    }
+    "Full Writeup ": ['https://github.com/alexsaavedraa/Prompt-Recovery-Challenge', documenticon],
+    "Source Code ": ['https://github.com/alexsaavedraa/Prompt-Recovery-Challenge', githubicon, ],
+
+    "Competition Website ": ['https://www.kaggle.com/competitions/llm-prompt-recovery', kaggleicon],
+    },
+    image: kaggleimg,
+
+  },
+  {
+    name: "Friendly Chat",
+    subtitle: "Live Chat Service using Typescript-Golang-PostgreSQL",
+    
+    title: "Friendly Chat",
+    tagline: "Feature Complete Live Chat Service that supports 100 concurrent users.",
+    description: ["This project was originally built as part of a hackathon, but more recently, I have updated it and deployed it to teach myself more about production environments and best practices.",
+       "Friendly Chat is built with a Typescript frontend, and a Golang backend that utilizes websockets in order to handle low latency concurrency. The backend interfaces with a PostgresSQL server for data storage. You can find a full database description in the readme of the sourcecode. ",
+       "It features account creation, login, salted and hashed password storage, automatically expiring authentification cookies, and live updating chat, likes, and dislikes. Friendly Chat is deployed on my rasberry pi in a single-node kubernetes cluster, and proxied by Nginx, all run on Ubuntu Server."
+      ],
+    stack: ['Golang', 'Typescript', 'PostgreSQL', 'Kubernetes', 'Docker', 'Linux'],
+    links: {
+    "Source Code": ['https://github.com/alexsaavedraa/Prompt-Recovery-Challenge', githubicon],
+    "Try it out! ": ['http://Chat.leapingspider.com', friendlyicon],
+    },
+    image: chatbox,
+
+  },
+  {
+    name: "Ludobots",
+    subtitle: "Physically Simulated Robot Learning",
+    
+    title: "Ludobots-Physically Simulated Robots Learning to Move",
+    tagline: "And several observations on learning algorithms and reward functions",
+    description: ["The Reverse Prompt Engineering Competition is a cutting-edge machine learning challenge focused on recovering prompts used to generate text with large language models.",
+       "  My approach involved meticulous natural generation with strict quality metrics, followed by optimizing prompts through an original language genetic algorithm. Finally, integration of clustering with BERTopic, was aimed at giving my submission its final edge in a competition with razor thin majors. This strategic blend of data science and algorithmic refinement culminated in a competitive performance, reflecting a deep exploration into effective machine learning, prompt engineering strategies, and NLP workflows.",
+      ],
+    stack: ['Python', 'Genetic Algorithms', 'LLMS', 'Vectorizors'],
+    links: {
+    "Source Code": ['https://github.com/alexsaavedraa/Prompt-Recovery-Challenge', githubicon],
+    "Try it out! ": ['http://Chat.leapingspider.com', friendlyicon],
+    },
+    image: chatbox,
+
+  },
+  {
+    name: "Plant 2.0",
+    subtitle: "Automating Plant care with Microcontrollers and C",
+    
+    title: "Ludobots-Physically Simulated Robots Learning to Move",
+    tagline: "And several observations on learning algorithms and reward functions",
+    description: ["The Reverse Prompt Engineering Competition is a cutting-edge machine learning challenge focused on recovering prompts used to generate text with large language models.",
+       "  My approach involved meticulous natural generation with strict quality metrics, followed by optimizing prompts through an original language genetic algorithm. Finally, integration of clustering with BERTopic, was aimed at giving my submission its final edge in a competition with razor thin majors. This strategic blend of data science and algorithmic refinement culminated in a competitive performance, reflecting a deep exploration into effective machine learning, prompt engineering strategies, and NLP workflows.",
+      ],
+    stack: ['Python', 'Genetic Algorithms', 'LLMS', 'Vectorizors'],
+    links: {
+    "Source Code": ['https://github.com/alexsaavedraa/Prompt-Recovery-Challenge', githubicon],
+    "Try it out! ": ['http://Chat.leapingspider.com', friendlyicon],
+    },
+    image: chatbox,
 
   }
+
+   
 ]
 
 const skills = [

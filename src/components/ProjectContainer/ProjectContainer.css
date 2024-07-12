@@ -1,5 +1,5 @@
 .project {
-  padding: 2em;
+  padding: 1em;
   margin: 0 auto;
   text-align: center;
   box-shadow: var(--shadow);
@@ -7,24 +7,25 @@
 }
 
 .project:hover {
-  transform: translateY(-7px);
+  transform: translateY(-2px);
+  background-color:blanchedalmond;
 }
 
 .project__description {
-  margin-top: 1em;
+  margin-top: .5em;
 }
 
 .project__stack {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 1.2em 0;
+  
 }
 
 .project__stack-item {
-  margin: 0.5em;
+  margin: 0.1 rem;
   font-weight: 500;
-  font-size: 0.8rem;
+  font-size: 0.75rem;
   color: var(--clr-fg-alt);
 }
 

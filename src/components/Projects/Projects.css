@@ -1,7 +1,24 @@
-.projects__grid {
-  max-width: 1100px;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));
-  grid-gap: 2em;
+.projects__layout {
+  display: flex;
+}
+
+.projects__list {
+  width: 25%;
+  padding: 1em;
+  border-right: 1px solid var(--clr-border);
+  overflow-y: auto;
+}
+
+.project__preview {
+  cursor: pointer;
+  margin-bottom: 1em;
+}
+
+.projects__details {
+  width: 75%;
+  padding: 2em;
+}
+
+.project__preview:hover {
+  transform: translateY(-7px);
 }

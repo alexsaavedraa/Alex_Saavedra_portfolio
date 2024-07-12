@@ -1,0 +1,57 @@
+.project-details {
+  
+}
+
+.details-container {
+  
+  align-items: center; /* Align items vertically in the flex container */
+}
+
+.description {
+  text-wrap: pretty;
+}
+.project-tagline{
+  color: gray
+}
+
+.project-stack-container{
+  margin-top: 5px
+}
+
+.project-image {
+  float: right;
+  width: 300px; /* Adjust width as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin: 20px;
+  margin-top: 0px; /* Add margin for spacing */
+
+}
+.project__links{
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}.link-wrapper {
+  margin-right: 5rem;  /* Adjust margin between each link */
+  box-shadow: 1rem;
+  outline: 1rem;
+}
+
+.link {
+  display: inline-block;  /* Display link as inline block */
+  text-decoration: none; /* Remove underline from links */
+  font-weight: bold;
+  color: #333;  /* Example text color */
+
+}
+
+.link__text {
+  margin-right: 5px;  /* Adjust space between text and icon */
+}
+
+.project__icon {
+  width: 3rem;  /* Set width of the icon */
+  height: 3rem; /* Set height of the icon */
+  vertical-align: middle; /* Align icon vertically with text */
+}
