@@ -3,10 +3,11 @@
   line-height: 1.4;
   color: var(--clr-fg);
   background-color: var(--clr-bg);
+  
 }
 
 .light {
-  --clr-bg: #fcfcfc;
+  --clr-bg: #fcfcfc00;
   --clr-bg-alt: #fff;
   --clr-fg: #555;
   --clr-fg-alt: #444;
@@ -28,27 +29,36 @@ main {
   max-width: 1920;
   width: 80%;
   margin: auto;
+  z-index: 1;
+  
 }
 
 .section {
   margin-top: 5em;
+  z-index: 1;
 }
 
 .section__title {
   text-align: center;
   margin-bottom: 1em;
   text-transform: uppercase;
+  z-index: 1;
+
 }
 
 .center {
   display: flex;
   align-items: center;
+  z-index: 1;
+
 }
 
 .link {
   color: var(--clr-primary);
   padding: 0 0 0.3em 0;
   position: relative;
+  z-index: 1;
+
 }
 
 .link:hover {
@@ -89,6 +99,8 @@ main {
   font-size: 0.9rem;
   text-transform: lowercase;
   transition: transform 0.2s ease-in-out;
+  z-index: 1;
+
 }
 
 .btn--outline {
@@ -112,7 +124,7 @@ main {
   bottom: 0;
   left: 0;
   top: 0;
-  z-index: -1;
+  z-index: 1;
   transition: right 0.2s ease-in-out;
 }
 

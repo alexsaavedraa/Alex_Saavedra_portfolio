@@ -29,12 +29,12 @@ const ProjectDetailsContainer = ({ project }) => {
       <p className="description">
   {project.description && project.description.map((item) => (
     
-    <fragment key={item}>
+    <React.Fragment key={item}>
        <br/>
       {item}
       <br />
      
-    </fragment>
+    </React.Fragment>
   ))}
 </p>
       </div>

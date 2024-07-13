@@ -1,9 +1,11 @@
 .project {
+  z-index: 1;
   padding: 1em;
   margin: 0 auto;
   text-align: center;
   box-shadow: var(--shadow);
   transition: transform 0.2s linear;
+  background-color: white;
 }
 
 .project:hover {
