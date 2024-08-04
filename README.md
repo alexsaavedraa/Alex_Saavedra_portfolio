@@ -1,3 +1,7 @@
+For information on template used, cleanfolio section. 
+This template has been modified, especially in the projects section, to better showcase my work. It also anonymizes and tracks users. 
+
+
 # Cleanfolio
 
 Cleanfolio is a portfolio template built with React. However, if you prefer a template built with HTML, CSS, and JavaScript, you can check out [Cleanfolio Minimal](https://github.com/rajshekhar26/cleanfolio-minimal).
